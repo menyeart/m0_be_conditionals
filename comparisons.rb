@@ -90,9 +90,9 @@ finished_homework = false
 
 # EXAMPLE:
 # Determine if the user is hungry and has completed their homework
-puts is_hungry && finished_homework
+puts is_hungry == true && finished_homework == true
 # Determine if the user is hungry or has completed their homework
-puts is_hungry || finished_homework
+puts is_hungry == true || finished_homework == true
 
 loves_to_play = true
 loves_dog_park = false
@@ -101,16 +101,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-puts loves_to_play && loves_treats
+puts loves_to_play == true && loves_treats == true
 
 # Determine if the dog loves to play and loves the dog park
-puts loves_to_play && loves_dog_park
+puts loves_to_play == true && loves_dog_park == true
 
 # Determine if the dog loves to play or loves the dog park
-puts loves_to_play || loves_dog_park
+puts loves_to_play == true || loves_dog_park == true
 
 # Determine if the dog loves to play and is a puppy
-puts loves_to_play && age <= 1
+puts loves_to_play == true && age <= 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER: I decided that to be a puppy a dog's age would have to be less than or equal to 1 year old. I didn't see a variable for being a puppy so I don't think this could be evaluated.
+# ANSWER: I decided that to be a puppy a dog's age would have to be less than or equal to 1 year old so it evaluated to true. I didn't see a variable for being a puppy so I don't think this could be evaluated.
